@@ -1,0 +1,5 @@
+uvicorn
+fastapi
+langchain
+PyPDF2
+pymongo
