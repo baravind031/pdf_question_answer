@@ -3,3 +3,4 @@ fastapi ==  0.97.0
 langchain  
 PyPDF2 ==  3.0.1
 pymongo ==   4.4.0
+langchain.vectorstores
