@@ -2,3 +2,4 @@ uvicorn
 fastapi  
 PyPDF2
 langchain
+pymongo
