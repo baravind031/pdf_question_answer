@@ -1,5 +1,5 @@
-uvicorn  
-fastapi  
-PyPDF2
-langchain
-pymongo
+uvicorn == 0.22.0
+fastapi ==  0.97.0
+langchain ==  0.0.214
+PyPDF2 ==  3.0.1
+pymongo ==   4.4.0
