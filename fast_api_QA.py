@@ -93,7 +93,7 @@ def ask_question(question: str):
         return {"message": "Please upload a file first."}
     
      # Question answering
-    response = qa_chain.run({"query": question, "format_instructions": format_instructions})
+    response = qa_chain.run({"query": question, "format_instructions": format_instructions,"tracing":True})
     
     if response:
         return {"answer": response}
