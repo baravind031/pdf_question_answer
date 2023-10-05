@@ -14,7 +14,7 @@ from pymongo import MongoClient
 import uvicorn
 
 app = FastAPI()
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = " Enter your API KEY"
 
 # initialize MongoDB python client
 client = MongoClient("mongodb+srv://baravind031:SznII1KJRhASObXl@cluster0.uejwn03.mongodb.net/I")
